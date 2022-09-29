@@ -1,0 +1,32 @@
+.LoginContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: inherit;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.LoginContainer h4 { 
+    margin: 10px 0;
+}
+
+.LoginContainer input {
+     width: 280px;
+     height: 40px;
+     padding-left: 10px;
+     font-size: 14px;
+     border-radius: 10px;
+     border: 1px solid #e8e8e8;
+}
+
+.LoginContainer button { 
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+header { 
+  height: 100px;
+  width: 100%;
+  background: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header div { 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+header div a, header button {
+  text-decoration: none;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background: #dfdfdf;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #dfdfdf;
+}
+
+header button:hover{
+  width: 60px;
+  height: 25px;
+  color: #fff;
+  background-color: #000;
+  transition: all 0.5s ease-in-out;
+}
